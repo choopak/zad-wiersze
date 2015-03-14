@@ -113,7 +113,13 @@ public function hymnAction()
     /*
      * L
      */
-
+/**
+ * @Route("/Lokomotywa.html", name="Lokomotywa")
+ */
+public function LokomotywaAction()
+{
+    return $this->render('default/Lokomotywa.html.twig');
+}
     /*
      * M
      */
